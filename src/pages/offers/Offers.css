@@ -1,0 +1,9 @@
+.card-img-top {
+  height: 13rem;
+  border-radius: 8px;
+}
+.conti{
+  display: grid;
+  grid-template-columns: auto auto auto;
+
+}

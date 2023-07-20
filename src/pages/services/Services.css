@@ -1,0 +1,72 @@
+.ServiceContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  margin: 1rem;
+  font-size: 3rem;
+  color: #3f418b;
+}
+.span1 {
+  font-weight: 600;
+}
+.card {
+  width: 70vw;
+  height: 24vh;
+  border-radius: 9px 1px solid;
+  box-shadow: 0.1px 1px 1px 0.1px rgb(110, 110, 192);
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+}
+
+.img-fluid {
+  padding: 0.7rem;
+  width: 17rem;
+  height: 9rem;
+  border-radius: 7px;
+}
+
+.buttons {
+  margin: 0.4rem;
+}
+
+.buttons button {
+  padding: 0.2rem;
+  font-weight: 400;
+  margin: 0.3rem;
+  width: 4rem;
+  border: none;
+  border-radius: 6px;
+}
+
+.card-body {
+  padding: 2rem;
+  margin-left: 4rem;
+}
+
+.card:hover {
+  box-shadow: 2px 4px 6px 1px rgb(99, 99, 103);
+}
+
+@media screen and (max-width: 770px) {
+  .ServiceContainer {
+    margin-left: 5rem;
+  }
+
+  .card {
+    width: 40vw;
+    height: 47vh;
+  }
+  .heading{
+    font-size: 1.7rem;
+  }
+  .card-body {
+    padding: 1rem;
+    margin-left: 1.8rem;
+  }
+}

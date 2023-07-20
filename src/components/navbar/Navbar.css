@@ -1,0 +1,61 @@
+nav {
+  background-color: #3f418b;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+nav .container-fluid {
+  margin-left: 20rem;
+}
+
+nav .navbar-brand {
+  font-size: 1.9rem;
+  font-weight: 300;
+  align-content: center;
+}
+
+nav .navbar-brand span {
+  padding: 0.2rem;
+}
+nav .navbar-collapse.collapse {
+  display: block;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.navbar-nav {
+  font-size: 1.3rem;
+  font-weight: 300;
+  margin-left: 2rem;
+}
+.navbar-nav .btn {
+  margin-left: 4rem;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 991px) {
+  nav .navbar-collapse.collapse {
+    overflow: hidden;
+  }
+
+  nav .navbar-collapse.active {
+    height: 40vh !important;
+    color: #000;
+  }
+  nav .navbar-collapse {
+    transition: 0.6s all ease-in-out;
+    height: 0 !important;
+  }
+  .logo {
+    margin-left: -1rem;
+    padding: 0rem;
+  }
+  nav .container-fluid {
+    margin-left: 0 !important;
+  }
+  .navbar-nav .btn {
+    margin-left: 0 !important;
+    width: 13rem;
+    margin-top: 1rem;
+  }
+}
